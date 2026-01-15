@@ -1,0 +1,14 @@
+appId: com.prayerapp
+---
+- launchApp
+- assertVisible: "Track Your Prayers"
+- tapOn:
+    id: "next-button"
+- assertVisible: "Qibla Direction"
+- tapOn:
+    id: "next-button"
+- assertVisible: "Daily Adhkar & Duas"
+- tapOn:
+    id: "get-started-button"
+- assertVisible:
+    id: "home-header"

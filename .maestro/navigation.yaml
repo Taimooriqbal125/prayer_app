@@ -1,0 +1,18 @@
+appId: com.prayerapp
+---
+- launchApp
+- assertVisible:
+    id: "home-header"
+- tapOn:
+    id: "tab-surah"
+- assertVisible: "Surah"
+- tapOn:
+    id: "tab-qibla"
+- assertVisible: "Finding Qibla"
+- tapOn:
+    id: "tab-tasbih"
+- assertVisible: "Counter"
+- tapOn:
+    id: "tab-home"
+- assertVisible:
+    id: "countdown-container"
