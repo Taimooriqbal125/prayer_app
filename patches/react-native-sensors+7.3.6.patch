@@ -1,13 +1,19 @@
 diff --git a/node_modules/react-native-sensors/android/build.gradle b/node_modules/react-native-sensors/android/build.gradle
-index 1234567..abcdefg 100644
+index f1526ec..cfd4aac 100644
 --- a/node_modules/react-native-sensors/android/build.gradle
 +++ b/node_modules/react-native-sensors/android/build.gradle
-@@ -4,7 +4,6 @@ def safeExtGet(prop, fallback) {
+@@ -1,18 +1,16 @@
+-
+ def safeExtGet(prop, fallback) {
+     rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+ }
  
  repositories {
-   mavenCentral()
-   google()
+-  mavenCentral()
+-  google()
 -  jcenter()
++    google()
++    mavenCentral()
  }
  
  buildscript {
@@ -18,3 +24,12 @@ index 1234567..abcdefg 100644
      }
  
      dependencies {
+@@ -39,8 +37,6 @@ android {
+     }
+ }
+ 
+-
+-
+ dependencies {
+     implementation 'com.facebook.react:react-native:+'
+     implementation 'androidx.appcompat:appcompat:1.0.2'

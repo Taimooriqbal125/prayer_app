@@ -55,7 +55,6 @@ DerivedData
 
 # Android/IntelliJ
 #
-build/
 .idea
 .gradle
 local.properties
@@ -127,3 +126,10 @@ secrets.json
 
 # Watchman
 .watchmanconfig
+
+
+android/build/
+android/app/build/
+android/.gradle/
+android/app/.cxx/
+android/.cxx/
