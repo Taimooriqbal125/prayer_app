@@ -111,6 +111,11 @@ src/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 📘 Project Documentation
+
+For a complete professional project document (purpose, features, tech stack, and architecture), see:
+- [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md)
+
 ## 👨‍💻 Author
 
 **Taimoor Iqbal**
